@@ -20,6 +20,8 @@ import { ContaService } from '../services/contas.service';
 
 
 
+
+
 @NgModule({
   declarations: [
     ListagemClientesComponent,
@@ -30,6 +32,8 @@ import { ContaService } from '../services/contas.service';
     DepositoComponent,
     TransferenciaComponent,
     ExtratoComponent,
+
+
 
 
   ],

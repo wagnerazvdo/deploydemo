@@ -10,6 +10,8 @@ import { CadastroEdicaoContasComponent } from './pages/contas/cadastro-edicao-co
 import { ListagemContasComponent } from './pages/contas/listagem-contas/listagem-contas.component';
 
 
+
+
 const routes: Routes = [
   {
     path: '', redirectTo: '/index', pathMatch: 'full'
