@@ -14,6 +14,8 @@ import { DepositoComponent } from './caixa-eletronico/deposito/deposito.componen
 import { TransferenciaComponent } from './caixa-eletronico/transferencia/transferencia.component';
 import { ExtratoComponent } from './caixa-eletronico/extrato/extrato.component';
 import { ContaService } from '../services/contas.service';
+import { HomepageComponent } from './homepage/homepage/homepage.component';
+
 
 
 
@@ -32,6 +34,8 @@ import { ContaService } from '../services/contas.service';
     DepositoComponent,
     TransferenciaComponent,
     ExtratoComponent,
+    HomepageComponent
+
 
 
 

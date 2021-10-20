@@ -8,13 +8,14 @@ import { CadastroEdicaoClientesComponent } from './pages/clientes/cadastro-edica
 import { ListagemClientesComponent } from './pages/clientes/listagem-clientes/listagem-clientes.component';
 import { CadastroEdicaoContasComponent } from './pages/contas/cadastro-edicao-contas/cadastro-edicao-contas.component';
 import { ListagemContasComponent } from './pages/contas/listagem-contas/listagem-contas.component';
+import { HomepageComponent } from './pages/homepage/homepage/homepage.component';
 
 
 
 
 const routes: Routes = [
   {
-    path: '', redirectTo: '/index', pathMatch: 'full'
+    path: '', redirectTo: '/homepage', pathMatch: 'full'
   },
   {
     path: 'clientes', component: ListagemClientesComponent,
@@ -42,6 +43,9 @@ const routes: Routes = [
   },
   {
     path: 'caixa-eletronico/extrato', component: ExtratoComponent,
+  },
+  {
+    path: 'homepage', component: HomepageComponent,
   },
 
 

@@ -1,3 +1,7 @@
 div.valor {
   width: 49%;
 }
+
+div.bthome {
+  float: right;
+}

@@ -10,3 +10,6 @@ div.nome {
 div.observacoes {
   width: 50%;
 }
+div.bthome {
+  float: right;
+}

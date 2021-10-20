@@ -4,4 +4,6 @@ div.agencia {
 div.conta {
   width: 50%;
 }
-
+div.bthome {
+  float: right;
+}
